@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIT JEE Registration Form</title>
+</head>
+<body>
+    <main>
+        <form>
+        <fieldset> 
+            <legend>IIT JEE Registration form</legend>
+            <label for="fullname">Full Name:</label>
+            <input type="text" name="fullname" id="fullname">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <br>
+            <label for="phone">Phone:</label>
+            <input type="number" name="phone" id="phone">
+            <br>
+            <br>
+            <label>Gender:</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other" value="other">
+            <label for="other">Other</label>
+            <br>
+            <br>
+            <label for="dateofbirth">DOB:</label>
+            <input type="date" name="DOB" id="dateofbirth">
+            <br>
+            <br>
+            <label for="schoolname">School Name:</label>
+            <input type="text" id="schoolname">
+            <br>
+            <br>
+            <label for="boards">Boards:</label>
+            <select name="boards" id="boaeds">
+                <option disabled selected>Select your board</option>
+                <option value="cbse">CBSE</option>
+                <option value="icse">ICSE</option>
+                <option value="up">UP</option>
+                <option value="jharkhand">Jharkhand</option>
+                <option value="bihar">Bihar</option>
+            </select>
+            <br>
+            <br>
+            <label for="yop">Year of Passing:</label>
+            <input type="number" name="yearofpassing" id="yop">
+            <br>
+            <br>
+            <label for="center">Exam-Center:</label>
+            <select name="center" id="center">
+                <option value="" disabled selected>Choose your Center</option>
+                <option value="gorakhpur">Gorakhpur</option>
+                <option value="varanasi">Varanasi</option>
+                <option value="allahabad">Allahabad</option>
+                <option value="lucknow">Lucknow</option>
+            </select>
+            <br>
+            <br>
+            <button>Register</button>
+        </fieldset>
+        </form>
+    </main>
+</body>
+</html>
